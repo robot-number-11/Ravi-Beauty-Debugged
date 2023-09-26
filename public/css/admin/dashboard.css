@@ -1,0 +1,31 @@
+
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: gainsboro;
+    outline: 1px solid black;
+    padding: 10px 20px;
+}
+
+
+
+.actions {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 50px;
+    text-align: center;
+}
+
+.actions a {
+    text-decoration: none;
+    padding: 20px 40px;
+    color: aliceblue;
+    background-color: rgb(208, 80, 80);
+    border-radius: 10px;
+    font-size: 1.5em;
+    outline: 1px solid black;
+
+}
+
